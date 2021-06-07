@@ -1,0 +1,4 @@
+com/grpc/grpcistio/client/HelloClientApplication.class
+com/grpc/grpcistio/client/GrpcClientConfiguration.class
+com/grpc/grpcistio/client/GrpcClientCommandLineRunner.class
+com/grpc/grpcistio/client/HelloController.class

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+import "google/api/annotations.proto";
+
+option java_package = "com.grpc.grpcistio.grpcprotos";
+option java_outer_classname = "HelloWorldService";
+
+package helloworld;
+
+service HelloWorld {
+  rpc SayHello (HelloRequest) returns (HelloResponse) {
+    option (google.api.http) = {
+      get: "/lookup"
+    };
+  }
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResponse {
+  string message = 1;
+}
