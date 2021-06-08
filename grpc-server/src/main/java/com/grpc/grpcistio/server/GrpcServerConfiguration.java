@@ -17,12 +17,12 @@ public class GrpcServerConfiguration {
 	@Autowired
 	HelloServiceImpl helloService;
 
-	@Value("${grpc.server-port}")
 	private int port;
 	private Server server;
 
 	public void start() throws IOException {
 		System.out.println("Starting gRPC on port " + port);
+		port = 18888;
 		server = ServerBuilder.forPort(port).addService(helloService).build().start();
 		System.out.println("gRPC server started, listening on " + port);
 
