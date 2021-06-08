@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="238a6490-461e-4d33-8af9-b7bbe87c368f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/grpc-client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-server/src/main/java/com/grpc/grpcistio/server/GrpcServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/src/main/java/com/grpc/grpcistio/server/GrpcServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-server/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-server/target/classes/com/grpc/grpcistio/server/GrpcServerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/target/classes/com/grpc/grpcistio/server/GrpcServerConfiguration.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tRxy8EykZKPVwdrxbyaX84r46H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/grpc-server/target" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grpc-server/target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HelloServiceApplication">
+    <configuration name="HelloClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="grpc-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grpc.grpcistio.client.HelloClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="grpc-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grpc.grpcistio.server.HelloServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="grpc-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grpc.grpcistio.HelloServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="238a6490-461e-4d33-8af9-b7bbe87c368f" name="Default Changelist" comment="" />
+      <created>1622745954434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622745954434</updated>
+      <workItem from="1622745968288" duration="18498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623004099247">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="352" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1623004099247" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1622748923256">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1622748923256" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1622805885981">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1622805885981" />
+    <state x="386" y="207" width="719" height="486" key="find.popup" timestamp="1623052537845">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="386" y="207" width="719" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1623052537845" />
+    <state x="337" y="151" key="new project wizard" timestamp="1622746452961">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="337" y="151" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1622746452961" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1623130051325">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1623130051325" />
+  </component>
+</project>
