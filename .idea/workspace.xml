@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238a6490-461e-4d33-8af9-b7bbe87c368f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/grpc-client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc-client/src/main/java/com/grpc/grpcistio/client/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-client/src/main/java/com/grpc/grpcistio/client/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grpc-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/src/main/java/com/grpc/grpcistio/server/GrpcServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/src/main/java/com/grpc/grpcistio/server/GrpcServerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/target/classes/com/grpc/grpcistio/server/GrpcServerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/target/classes/com/grpc/grpcistio/server/GrpcServerConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +39,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/grpc-server/target" />
   </component>
   <component name="RecentsManager">
@@ -49,7 +50,14 @@
       <recent name="$PROJECT_DIR$/grpc-server/target" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HelloServiceApplication">
+  <component name="RunManager" selected="Java Scratch.Scratch">
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="grpc-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.grpc.grpcistio.client.HelloClientApplication" />
@@ -71,6 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Java Scratch.Scratch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622745954434</updated>
-      <workItem from="1622745968288" duration="18498000" />
+      <workItem from="1622745968288" duration="27936000" />
+      <workItem from="1623326800583" duration="183000" />
     </task>
     <servers />
   </component>
@@ -92,21 +106,37 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1622748923256" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1623311879819">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1623311879819" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1623311879817">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1623311879817" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1623311879816">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1623311879816" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1623311879818">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1623311879818" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1622805885981">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1622805885981" />
-    <state x="386" y="207" width="719" height="486" key="find.popup" timestamp="1623052537845">
+    <state x="386" y="207" width="719" height="486" key="find.popup" timestamp="1623309972327">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="386" y="207" width="719" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1623052537845" />
+    <state x="386" y="207" width="719" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1623309972327" />
     <state x="337" y="151" key="new project wizard" timestamp="1622746452961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="337" y="151" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1622746452961" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1623130051325">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1623242826852">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1623130051325" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1623242826852" />
   </component>
 </project>
