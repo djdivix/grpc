@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="238a6490-461e-4d33-8af9-b7bbe87c368f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/grpc-client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-client/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/src/main/java/com/grpc/grpcistio/server/GrpcServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/src/main/java/com/grpc/grpcistio/server/GrpcServerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/target/classes/com/grpc/grpcistio/server/GrpcServerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/target/classes/com/grpc/grpcistio/server/GrpcServerConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
