@@ -1,6 +1,6 @@
 
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ßºýžÿÿÿÿÿ8À‚¹‚Ÿ/
 U	java:S106"9Replace this use of System.out or System.err by a logger.(ßéµé8À‚¹‚Ÿ/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ßºýžÿÿÿÿÿ8À‚¹‚Ÿ/
 b
 java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8‚’Ò‚Ÿ/
 Z	java:S106'"9Replace this use of System.out or System.err by a logger.(¢Ç‰§þÿÿÿÿ8ÝÊ¾‚Ÿ/

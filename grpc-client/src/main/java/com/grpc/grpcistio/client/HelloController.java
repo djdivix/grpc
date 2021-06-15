@@ -35,8 +35,8 @@ public class HelloController {
 	}
 
 	@PostMapping("/edge")
-	public ResponseEntity<String> edge(@RequestHeader(":method") String method, @RequestHeader(":path") String path, @RequestHeader(":authority") String authority) {
-		System.out.println("Got headers in edge function " + method + " " +path + " " + authority);
+	public ResponseEntity<String> edge(@RequestHeader("header1") String method) {
+		System.out.println("Got headers in edge function " + method );
 
 		HttpHeaders responseHeaders = new HttpHeaders();
 		responseHeaders.set("set-mydata",
