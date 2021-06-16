@@ -41,8 +41,13 @@ public class HelloController {
 		HttpHeaders responseHeaders = new HttpHeaders();
 		responseHeaders.set("set-mydata",
 				"this is a sample header with data");
+		if (method.equals("aman")) {
+			return ResponseEntity.noContent()
+					.headers(responseHeaders).build();
+		} else {
+			return ResponseEntity.badRequest()
+					.headers(responseHeaders).build();
+		}
 
-		return ResponseEntity.noContent()
-				.headers(responseHeaders).build();
 	}
 }
