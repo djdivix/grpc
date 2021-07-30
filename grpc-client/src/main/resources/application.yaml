@@ -1,0 +1,19 @@
+server:
+  port: 19090
+spring:
+  application:
+    name: grpc-client
+  sleuth:
+    enabled: true
+    sampler:
+      probability: 1.0F
+
+sample:
+  zipkin:
+    enabled: true
+
+grpc:
+  client:
+    grpc-server:
+      address: static://localhost:18888
+      negotiationType: plaintext
