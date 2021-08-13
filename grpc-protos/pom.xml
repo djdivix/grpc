@@ -48,13 +48,13 @@
                 <artifactId>protobuf-maven-plugin</artifactId>
                 <version>0.6.1</version>
                 <configuration>
-                    <protocArtifact>com.google.protobuf:protoc:3.11.3:exe:${os.detected.classifier}</protocArtifact>
+                    <protocArtifact>
+                        com.google.protobuf:protoc:3.3.0:exe:${os.detected.classifier}
+                    </protocArtifact>
                     <pluginId>grpc-java</pluginId>
-                    <pluginArtifact>io.grpc:protoc-gen-grpc-java:1.28.1:exe:${os.detected.classifier}</pluginArtifact>
-                    <writeDescriptorSet>true</writeDescriptorSet>
-                    <includeSourceInfoInDescriptorSet>true</includeSourceInfoInDescriptorSet>
-                    <includeDependenciesInDescriptorSet>true</includeDependenciesInDescriptorSet>
-                    <descriptorSetFileName>descriptor_file.pb</descriptorSetFileName>
+                    <pluginArtifact>
+                        io.grpc:protoc-gen-grpc-java:1.4.0:exe:${os.detected.classifier}
+                    </pluginArtifact>
                 </configuration>
                 <executions>
                     <execution>
