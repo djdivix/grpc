@@ -1,4 +1,3 @@
-/Users/amanarora/code/test/grpc/grpc-client/src/main/java/com/grpc/grpcistio/client/HelloController.java
-/Users/amanarora/code/test/grpc/grpc-client/src/main/java/com/grpc/grpcistio/client/GrpcClientCommandLineRunner.java
-/Users/amanarora/code/test/grpc/grpc-client/src/main/java/com/grpc/grpcistio/client/HelloClientApplication.java
-/Users/amanarora/code/test/grpc/grpc-client/src/main/java/com/grpc/grpcistio/client/GrpcClientConfiguration.java
+/Users/divyanshu/IdeaProjects/grpc/grpc-client/src/main/java/com/grpc/grpcistio/client/HelloGrpcClient.java
+/Users/divyanshu/IdeaProjects/grpc/grpc-client/src/main/java/com/grpc/grpcistio/client/HelloController.java
+/Users/divyanshu/IdeaProjects/grpc/grpc-client/src/main/java/com/grpc/grpcistio/client/HelloClientApplication.java

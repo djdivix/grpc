@@ -3,5 +3,17 @@ server:
 spring:
   application:
     name: grpc-client
-server-host: ${server-host}
-server-port: ${server-port}
+  sleuth:
+    enabled: true
+    sampler:
+      probability: 1.0F
+
+sample:
+  zipkin:
+    enabled: true
+
+grpc:
+  client:
+    grpc-server:
+      address: static://localhost:18888
+      negotiationType: plaintext
