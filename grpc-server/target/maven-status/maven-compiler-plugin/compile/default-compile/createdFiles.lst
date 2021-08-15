@@ -1,4 +1,3 @@
-com/grpc/grpcistio/server/GrpcServerConfiguration.class
 com/grpc/grpcistio/server/HelloServiceImpl.class
+com/grpc/grpcistio/server/HelloServiceApplication$1.class
 com/grpc/grpcistio/server/HelloServiceApplication.class
-com/grpc/grpcistio/server/GrpcServerCommandLineRunner.class

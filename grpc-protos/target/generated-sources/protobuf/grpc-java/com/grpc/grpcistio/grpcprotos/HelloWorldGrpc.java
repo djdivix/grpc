@@ -1,24 +1,24 @@
 package com.grpc.grpcistio.grpcprotos;
 
-import static io.grpc.MethodDescriptor.generateFullMethodName;
-import static io.grpc.stub.ClientCalls.asyncBidiStreamingCall;
-import static io.grpc.stub.ClientCalls.asyncClientStreamingCall;
-import static io.grpc.stub.ClientCalls.asyncServerStreamingCall;
 import static io.grpc.stub.ClientCalls.asyncUnaryCall;
-import static io.grpc.stub.ClientCalls.blockingServerStreamingCall;
+import static io.grpc.stub.ClientCalls.asyncServerStreamingCall;
+import static io.grpc.stub.ClientCalls.asyncClientStreamingCall;
+import static io.grpc.stub.ClientCalls.asyncBidiStreamingCall;
 import static io.grpc.stub.ClientCalls.blockingUnaryCall;
+import static io.grpc.stub.ClientCalls.blockingServerStreamingCall;
 import static io.grpc.stub.ClientCalls.futureUnaryCall;
-import static io.grpc.stub.ServerCalls.asyncBidiStreamingCall;
-import static io.grpc.stub.ServerCalls.asyncClientStreamingCall;
-import static io.grpc.stub.ServerCalls.asyncServerStreamingCall;
+import static io.grpc.MethodDescriptor.generateFullMethodName;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
-import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
+import static io.grpc.stub.ServerCalls.asyncServerStreamingCall;
+import static io.grpc.stub.ServerCalls.asyncClientStreamingCall;
+import static io.grpc.stub.ServerCalls.asyncBidiStreamingCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
+import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 
 /**
  */
 @javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 1.28.1)",
+    value = "by gRPC proto compiler (version 1.4.0)",
     comments = "Source: hello.proto")
 public final class HelloWorldGrpc {
 
@@ -27,49 +27,24 @@ public final class HelloWorldGrpc {
   public static final String SERVICE_NAME = "helloworld.HelloWorld";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest,
-      com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse> getSayHelloMethod;
-
-  @io.grpc.stub.annotations.RpcMethod(
-      fullMethodName = SERVICE_NAME + '/' + "SayHello",
-      requestType = com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest.class,
-      responseType = com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse.class,
-      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest,
-      com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse> getSayHelloMethod() {
-    io.grpc.MethodDescriptor<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest, com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse> getSayHelloMethod;
-    if ((getSayHelloMethod = HelloWorldGrpc.getSayHelloMethod) == null) {
-      synchronized (HelloWorldGrpc.class) {
-        if ((getSayHelloMethod = HelloWorldGrpc.getSayHelloMethod) == null) {
-          HelloWorldGrpc.getSayHelloMethod = getSayHelloMethod =
-              io.grpc.MethodDescriptor.<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest, com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse>newBuilder()
-              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
-              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "SayHello"))
-              .setSampledToLocalTracing(true)
-              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest.getDefaultInstance()))
-              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse.getDefaultInstance()))
-              .setSchemaDescriptor(new HelloWorldMethodDescriptorSupplier("SayHello"))
-              .build();
-        }
-      }
-    }
-    return getSayHelloMethod;
-  }
+  @io.grpc.ExperimentalApi("https://github.com/grpc/grpc-java/issues/1901")
+  public static final io.grpc.MethodDescriptor<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest,
+      com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse> METHOD_SAY_HELLO =
+      io.grpc.MethodDescriptor.<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest, com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse>newBuilder()
+          .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+          .setFullMethodName(generateFullMethodName(
+              "helloworld.HelloWorld", "SayHello"))
+          .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+              com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest.getDefaultInstance()))
+          .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+              com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse.getDefaultInstance()))
+          .build();
 
   /**
    * Creates a new async stub that supports all call types for the service
    */
   public static HelloWorldStub newStub(io.grpc.Channel channel) {
-    io.grpc.stub.AbstractStub.StubFactory<HelloWorldStub> factory =
-      new io.grpc.stub.AbstractStub.StubFactory<HelloWorldStub>() {
-        @java.lang.Override
-        public HelloWorldStub newStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
-          return new HelloWorldStub(channel, callOptions);
-        }
-      };
-    return HelloWorldStub.newStub(factory, channel);
+    return new HelloWorldStub(channel);
   }
 
   /**
@@ -77,14 +52,7 @@ public final class HelloWorldGrpc {
    */
   public static HelloWorldBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
-    io.grpc.stub.AbstractStub.StubFactory<HelloWorldBlockingStub> factory =
-      new io.grpc.stub.AbstractStub.StubFactory<HelloWorldBlockingStub>() {
-        @java.lang.Override
-        public HelloWorldBlockingStub newStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
-          return new HelloWorldBlockingStub(channel, callOptions);
-        }
-      };
-    return HelloWorldBlockingStub.newStub(factory, channel);
+    return new HelloWorldBlockingStub(channel);
   }
 
   /**
@@ -92,14 +60,7 @@ public final class HelloWorldGrpc {
    */
   public static HelloWorldFutureStub newFutureStub(
       io.grpc.Channel channel) {
-    io.grpc.stub.AbstractStub.StubFactory<HelloWorldFutureStub> factory =
-      new io.grpc.stub.AbstractStub.StubFactory<HelloWorldFutureStub>() {
-        @java.lang.Override
-        public HelloWorldFutureStub newStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
-          return new HelloWorldFutureStub(channel, callOptions);
-        }
-      };
-    return HelloWorldFutureStub.newStub(factory, channel);
+    return new HelloWorldFutureStub(channel);
   }
 
   /**
@@ -110,13 +71,13 @@ public final class HelloWorldGrpc {
      */
     public void sayHello(com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest request,
         io.grpc.stub.StreamObserver<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse> responseObserver) {
-      asyncUnimplementedUnaryCall(getSayHelloMethod(), responseObserver);
+      asyncUnimplementedUnaryCall(METHOD_SAY_HELLO, responseObserver);
     }
 
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
-            getSayHelloMethod(),
+            METHOD_SAY_HELLO,
             asyncUnaryCall(
               new MethodHandlers<
                 com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest,
@@ -128,15 +89,19 @@ public final class HelloWorldGrpc {
 
   /**
    */
-  public static final class HelloWorldStub extends io.grpc.stub.AbstractAsyncStub<HelloWorldStub> {
-    private HelloWorldStub(
-        io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
+  public static final class HelloWorldStub extends io.grpc.stub.AbstractStub<HelloWorldStub> {
+    private HelloWorldStub(io.grpc.Channel channel) {
+      super(channel);
+    }
+
+    private HelloWorldStub(io.grpc.Channel channel,
+        io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected HelloWorldStub build(
-        io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
+    protected HelloWorldStub build(io.grpc.Channel channel,
+        io.grpc.CallOptions callOptions) {
       return new HelloWorldStub(channel, callOptions);
     }
 
@@ -145,21 +110,25 @@ public final class HelloWorldGrpc {
     public void sayHello(com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest request,
         io.grpc.stub.StreamObserver<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse> responseObserver) {
       asyncUnaryCall(
-          getChannel().newCall(getSayHelloMethod(), getCallOptions()), request, responseObserver);
+          getChannel().newCall(METHOD_SAY_HELLO, getCallOptions()), request, responseObserver);
     }
   }
 
   /**
    */
-  public static final class HelloWorldBlockingStub extends io.grpc.stub.AbstractBlockingStub<HelloWorldBlockingStub> {
-    private HelloWorldBlockingStub(
-        io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
+  public static final class HelloWorldBlockingStub extends io.grpc.stub.AbstractStub<HelloWorldBlockingStub> {
+    private HelloWorldBlockingStub(io.grpc.Channel channel) {
+      super(channel);
+    }
+
+    private HelloWorldBlockingStub(io.grpc.Channel channel,
+        io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected HelloWorldBlockingStub build(
-        io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
+    protected HelloWorldBlockingStub build(io.grpc.Channel channel,
+        io.grpc.CallOptions callOptions) {
       return new HelloWorldBlockingStub(channel, callOptions);
     }
 
@@ -167,21 +136,25 @@ public final class HelloWorldGrpc {
      */
     public com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse sayHello(com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest request) {
       return blockingUnaryCall(
-          getChannel(), getSayHelloMethod(), getCallOptions(), request);
+          getChannel(), METHOD_SAY_HELLO, getCallOptions(), request);
     }
   }
 
   /**
    */
-  public static final class HelloWorldFutureStub extends io.grpc.stub.AbstractFutureStub<HelloWorldFutureStub> {
-    private HelloWorldFutureStub(
-        io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
+  public static final class HelloWorldFutureStub extends io.grpc.stub.AbstractStub<HelloWorldFutureStub> {
+    private HelloWorldFutureStub(io.grpc.Channel channel) {
+      super(channel);
+    }
+
+    private HelloWorldFutureStub(io.grpc.Channel channel,
+        io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected HelloWorldFutureStub build(
-        io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
+    protected HelloWorldFutureStub build(io.grpc.Channel channel,
+        io.grpc.CallOptions callOptions) {
       return new HelloWorldFutureStub(channel, callOptions);
     }
 
@@ -190,7 +163,7 @@ public final class HelloWorldGrpc {
     public com.google.common.util.concurrent.ListenableFuture<com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloResponse> sayHello(
         com.grpc.grpcistio.grpcprotos.HelloWorldService.HelloRequest request) {
       return futureUnaryCall(
-          getChannel().newCall(getSayHelloMethod(), getCallOptions()), request);
+          getChannel().newCall(METHOD_SAY_HELLO, getCallOptions()), request);
     }
   }
 
@@ -233,38 +206,10 @@ public final class HelloWorldGrpc {
     }
   }
 
-  private static abstract class HelloWorldBaseDescriptorSupplier
-      implements io.grpc.protobuf.ProtoFileDescriptorSupplier, io.grpc.protobuf.ProtoServiceDescriptorSupplier {
-    HelloWorldBaseDescriptorSupplier() {}
-
+  private static final class HelloWorldDescriptorSupplier implements io.grpc.protobuf.ProtoFileDescriptorSupplier {
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
       return com.grpc.grpcistio.grpcprotos.HelloWorldService.getDescriptor();
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Descriptors.ServiceDescriptor getServiceDescriptor() {
-      return getFileDescriptor().findServiceByName("HelloWorld");
-    }
-  }
-
-  private static final class HelloWorldFileDescriptorSupplier
-      extends HelloWorldBaseDescriptorSupplier {
-    HelloWorldFileDescriptorSupplier() {}
-  }
-
-  private static final class HelloWorldMethodDescriptorSupplier
-      extends HelloWorldBaseDescriptorSupplier
-      implements io.grpc.protobuf.ProtoMethodDescriptorSupplier {
-    private final String methodName;
-
-    HelloWorldMethodDescriptorSupplier(String methodName) {
-      this.methodName = methodName;
-    }
-
-    @java.lang.Override
-    public com.google.protobuf.Descriptors.MethodDescriptor getMethodDescriptor() {
-      return getServiceDescriptor().findMethodByName(methodName);
     }
   }
 
@@ -277,8 +222,8 @@ public final class HelloWorldGrpc {
         result = serviceDescriptor;
         if (result == null) {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
-              .setSchemaDescriptor(new HelloWorldFileDescriptorSupplier())
-              .addMethod(getSayHelloMethod())
+              .setSchemaDescriptor(new HelloWorldDescriptorSupplier())
+              .addMethod(METHOD_SAY_HELLO)
               .build();
         }
       }

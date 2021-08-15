@@ -1,5 +1,15 @@
 spring:
   application:
     name: grpc-server
+  sleuth:
+    enabled: true
+    sampler:
+      probability: 1.0F
+
 grpc:
-  server-port: 18888
+  server:
+    port: 18888
+
+sample:
+  zipkin:
+    enabled: true
