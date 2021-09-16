@@ -6,6 +6,9 @@ spring:
     sampler:
       probability: 1.0F
 
+  zipkin:
+    base-url: http://tracing.accounts-internal-stg-cloud.paytm.com
+
 grpc:
   server:
     port: 18888

@@ -8,6 +8,9 @@ spring:
     sampler:
       probability: 1.0F
 
+  zipkin:
+    base-url: http://tracing.accounts-internal-stg-cloud.paytm.com
+
 sample:
   zipkin:
     enabled: true
